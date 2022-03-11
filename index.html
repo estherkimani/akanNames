@@ -5,18 +5,26 @@
     <title>Akan Names|Esther</title>
   </head>
   <body>
-    <form class="bday" action="index.html" method="post">
+    <h1>Akan Names</h1>
+    <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which
+      corresponds to the day in the week they were born. The name is also dependent on the child's gender. That way, men have different names from
+      women.</p>
+      <form class="details" action="scripts.js" method="post">
+        <label for="bday">Enter your birthday:</label>
+        <input type="text" name="bday" placeholder="e.g 21"><br>
 
-      <input type="text" name="bday" value="Enter your birthday">
-      <input type="text" name="bday" placeholder="e.g 21"><br>
+        <label for="bmonth">Enter your birthday month:</label>
+        <input type="text" name="bmonth" placeholder="e.g 8"><br>
 
-      <input type="text" name="bday" value="Enter your birthday month">
-      <input type="text" name="bmonth" placeholder="e.g 8"><br>
+        <label for="byr">Enter your birthday year:</label>
+        <input type="text" name="byr" placeholder="e.g 1997"><br>
+        <p>Gender:</p>
+          Male: <input type="radio" name="gender" value="Male"><br>
+          Female: <input type="radio" name="gender" value="Female"><br>
 
-      <input type="text" name="bday" value="Enter your birth year">
-      <input type="text" name="byr" placeholder="e.g 1997">
+        <input type="Submit" name="Submit">
 
-    </form>
+      </form>
 
   </body>
 </html>
