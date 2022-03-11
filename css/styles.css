@@ -1,0 +1,26 @@
+body{
+  background-image: url(../images/black3.jpg);
+  background-size:auto;
+  background-repeat: no-repeat;
+  background-color: #999900;
+}
+.content p{
+  color: white;
+  text-align:right;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.here {
+  font-size: 15px;
+}
+h1{
+  color: white;
+}
+.labels{
+  color: white;
+}
+form{
+  text-align: right;
+  font-size: 20px;
+}
