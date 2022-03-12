@@ -22,6 +22,16 @@ var CC = Math.ceil(C/100);//rounds the number to the nearest integers
 var day = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
 var dayOfWeek = Math.ceil(day);
 alert(dayOfWeek);
+//condition with the Gender
+if(document.getElementById('Gender').checked) {
+  //Male radio button is checked
+  var gender = "male";
+}else {
+  //Female radio button is checked
+  var gender = "female";
+}
+
+//to test the conditions that assign the akan names
 
 
 
