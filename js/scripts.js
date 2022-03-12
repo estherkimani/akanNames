@@ -36,10 +36,7 @@ if (DD <=0|| DD >31){
   alert("Enter a valid date!");
 } else if(MM <= 0 || MM > 12){
   alert("Enter a valid date!");
-}
-
-
-  else if (calculatedDate == 0 && gender === 'male') {
+} else if (dayOfWeek == 0 && gender === 'male') {
   alert(document.getElementById("myName").innerHTML = ("You were born on " + edays[0] + " your Akan Name is " + mDays[0]));
   }
   else if (dayOfWeek == 1 && gender === 'male') {
@@ -63,22 +60,22 @@ if (DD <=0|| DD >31){
   else if (dayOfWeek == 0 && gender === 'female') {
   alert(document.getElementById("myName").innerHTML = ("You were born on" + edays[0] + "your Akan name is " + fDays[0]));
   }
-  else if (dayOfWeek == 1 || intergeredDate == -1 && gender === 'female') {
+  else if (dayOfWeek == 1  && gender === 'female') {
     alert(document.getElementById("myName").innerHTML = ("You were born on" + edays[1] + "your Akan Name is " + fDays[1]));
   }
-  else if (dayOfWeek == 2 || intergeredDate == -2 && gender === 'female') {
+  else if (dayOfWeek == 2  && gender === 'female') {
     alert(document.getElementById("myName").innerHTML = ("You were born on" + edays[2] + "your Akan Name is " + fDays[2]));
   }
-  else if (dayOfWeek == 3 || intergeredDate == -3 && gender === 'female') {
+  else if (dayOfWeek == 3  && gender === 'female') {
     alert(document.getElementById("myName").innerHTML = ("You were born on" + edays[3] + "your Akan Name is " + fDays[3]));
   }
-  else if (dayOfWeek == 4 || intergeredDate == -4 && gender === 'female') {
+  else if (dayOfWeek == 4 && gender === 'female') {
     alert(document.getElementById("myName").innerHTML = ("You were born on" + edays[4] + "your Akan Name is " + fDays[4]));
   }
-  else if (dayOfWeek == 5 || intergeredDate == -5 && gender === 'female') {
+  else if (dayOfWeek == 5 && gender === 'female') {
     alert(document.getElementById("myName").innerHTML = ("You were born on" + edays[5] + "your Akan Name is " + fDays[5]));
   }
-  else if (dayOfWeek == 6 || intergeredDate == -6 && gender === 'female') {
+  else if (dayOfWeek == 6 && gender === 'female') {
     alert(document.getElementById("myName").innerHTML = ("You were born on" + edays[6] + "your Akan Name is " + fDays[6]));
   }
   else {
