@@ -7,19 +7,19 @@
   </head>
   <body>
     <h1>Akan Names</h1>
-    <div class="content">
+    <div class="content" class="form-control" >
       <p>Akan names are derived from Ghanian culture. Frequently in Ghana,children are given their <br>first name as a 'day name' which
         corresponds to the day in the week they were born. The name is <br>also dependent on the child's gender. That way, men have different names from
         women.</p>
-        <form class="details" action="scripts.js" method="post">
-          <label class="labels"for="bday">Enter your birthday:</label>
-          <input type="text" name="bday" placeholder="e.g 21"><br>
+        <form class="details" action="scripts.js" method="post" class="form-control" >
+          <label class="labels"for="bday" >Enter your birthday:</label>
+          <input type="text" name="bday" placeholder="e.g 21" id="date"required ><br>
 
           <label class="labels" for="bmonth">Enter your birthday month:</label>
-          <input type="text" name="bmonth" placeholder="e.g 8"><br>
+          <input type="text" name="bmonth" placeholder="e.g 8" id="month"required><br>
 
           <label class="labels" for="byr">Enter your birthday year:</label>
-          <input type="text" name="byr" placeholder="e.g 1997"><br>
+          <input type="text" name="byr" placeholder="e.g 1997" id="year"required><br>
           <p>Gender:</p>
             Male: <input class="labels" type="radio" name="gender" value="Male"><br>
             Female: <input class="labels" type="radio" name="gender" value="Female"><br>
