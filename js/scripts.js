@@ -34,7 +34,7 @@ if(document.getElementById('Gender').checked) {
 //to test the conditions that assign the akan names(validation)
 if (DD <=0|| DD >31){
   alert("Enter a valid date!");
-} else if(MM <= 0 || MM > 12)){
+} else if(MM <= 0 || MM > 12){
   alert("Enter a valid date!");
 }
 
@@ -86,6 +86,3 @@ if (DD <=0|| DD >31){
   }
 
 };
-
-
-  
