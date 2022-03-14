@@ -7,13 +7,13 @@ This project was generated with Angular CLI version 17.4.6.
 --------------------------------------------------------------
 This project inputs a users birthday that is, the date, month and year, it calculates the day of the week one was born and then assigns an Akan Names.
 
-User Stories
+### How it works
 
-User can search Usernames
-Users can access github account through typed link
-Users can view Github User details for their searches.
-Users can see repos for all their searches as long as the repos exist on github.
-Code scaffolding
+User enters the date month and year
+System validates the input given
+Runs through the loop to assign the appropriate akan name based on gender, and day of the dayOfWeek
+Javascript gives an alert on the Akan Name
+
 --------------------------------------------------------------
 #### Live link:
 https://estherkimani.github.io/akanNames/
