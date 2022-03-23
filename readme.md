@@ -1,11 +1,11 @@
 # Project name: Git-search
 --------------------------------------------------------------
-This project was generated with Angular CLI version 17.4.6.
+This project was generated with Atom
 
 --------------------------------------------------------------
 ## Project Description
 --------------------------------------------------------------
-This project inputs a users birthday that is, the date, month and year, it calculates the day of the week one was born and then assigns an Akan Names.
+This project inputs a users birthday that is, the date, month and year, it calculates the day of the week one was born and then assigns an Akan Names based on gender.
 
 ### How it works
 
