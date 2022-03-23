@@ -1,4 +1,4 @@
-# Project name: Git-search
+# Project name: Akan-Names
 --------------------------------------------------------------
 This project was generated with Atom
 
